@@ -1,8 +1,11 @@
-# I. Overview for Mining with AnkrPool
+---
+sort: 1
+---
+# I. Overview for Farming with AnkrPool
 
 **Operating systems:** Windows/Linux/MacOS；
 
-**Mining software:** AnkrMiner
+**Farming software:** AnkrPlot
 
  
 
@@ -16,7 +19,7 @@ c. Add a plot
 
 d. Bind data.
 
-e. Install Chia-miner to access AnkrPool.
+e. Install Chia-Plot to access AnkrPool.
 
  
 
@@ -108,6 +111,7 @@ Log in Chia wallet and navigate to “Plots” to add a plot.
 
  ![image](https://user-images.githubusercontent.com/86063945/125551516-cfdde123-bb20-4c14-b6e2-026060205b19.png)
 
-\7. You can see how your miner is doing by going to the “Miner” page.
+\7. You can see how your miner is doing by going to the “My Plots” page.
 
-![image](https://user-images.githubusercontent.com/86063945/125551550-3366fe5d-bd84-466e-9874-2a1346ded695.png)
+![359F60DE-1612-48C9-B740-3E67DDF5FA4C](https://user-images.githubusercontent.com/86063945/125558467-dee37f1f-eed9-4af6-afea-eda33aa56bc8.png)
+

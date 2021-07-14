@@ -1,3 +1,6 @@
+---
+sort: 1
+---
 # I. Overview for Mining with AnkrPool
 
 **Operating systems:** Windows/Linux/MacOS；

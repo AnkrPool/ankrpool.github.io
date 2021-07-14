@@ -1,37 +1,121 @@
-## Welcome to GitHub Pages
+# I. Overview for Mining with AnkrPool
 
-You can use the [editor on GitHub](https://github.com/AnkrPool/ankrpool.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+**Operating systems:** Windows/Linux/MacOS；
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Mining software:** AnkrMiner
 
-### Markdown
+ 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Steps to mine****：
 
-```markdown
-Syntax highlighted code block
+a. Install Chia Blockchain and create your private key for your Chia wallet.
 
-# Header 1
-## Header 2
-### Header 3
+b. Install Chia-signer and enter your created private key. 
 
-- Bulleted
-- List
+c. Add a plot
 
-1. Numbered
-2. List
+d. Bind data.
 
-**Bold** and _Italic_ and `Code` text
+e. Install Chia-miner to access AnkrPool.
 
-[Link](url) and ![Image](src)
-```
+ 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# II. Install Chia Blockchain and create your private key
 
-### Jekyll Themes
+\1.   Visit Chia website (https://www.chia.net/) to install Chia Blockchain.      
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AnkrPool/ankrpool.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Or you can also install it on github: https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL#Windows
 
-### Support or Contact
+ 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+\2.   Once downloaded, open it to set your preferred language, then create a new private key. 
+
+ 
+
+\3.   The 24 words generated are your seed phrase, which you will need to recover your wallet. Please keep them safe!  
+
+# III. Install Chia-signer and enter your created private key
+
+\1.   Navigate to Download＆Help, then install Chia-Signer.
+
+ 
+
+ 
+
+ 
+
+\2.   Unzip the file and run the AnkrPool-chia-signer app that suits your operating system. 
+
+ 
+
+And put in your secret 24 words with space in between each word, then press “Enter”. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+\3.   Check if the Fingerprint matches your private key. Then copy your signature for connecting to AnkrPool later.  
+
+*Only your signature is needed to connect your device to AnkrPool. Your private key and seed phrase will not be accessed at any time. Also, Chia-Signer can be run to generate your signature even when you are offline. 
+
+ 
+
+# IV. Add a plot
+
+Log in Chia wallet and navigate to “Plots” to add a plot. 
+
+ 
+
+ 
+
+ 
+
+# V. Bind data
+
+\1. Go to the “Configure” page, paste your signature in the “Binding Date” field, then click “Apply”. 
+
+ 
+
+ 
+
+ 
+
+\2. When binding is done, you will find your plotter ID below:
+
+ 
+
+# VI. Install Chia-Miner to access the pool.
+
+\1. Navigate to Download＆Help, then install Chia-Miner.
+
+ 
+
+\2. Find config.toml and open it with your notepad.
+
+ 
+
+  \3. Copy your account key as shown on the “Configure” page and paste it into the config.toml file. 
+
+ 
+
+ 
+
+\4. Change the plots path to your preferred one, then save the file. 
+
+ 
+
+\5. Run the AnkrPool-chia-miner app that suits your operating system. 
+
+ 
+
+\6. You should able to see things running after you successfully ran the miner app. 
+
+*Don’t close the miner app when you are mining. 
+
+ 
+
+\7. You can see how your miner is doing by going to the “Miner” page.

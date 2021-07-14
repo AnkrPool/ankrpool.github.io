@@ -1,7 +1,8 @@
 ---
 sort: 1
 ---
-# I. Overview for Farming with AnkrPool
+# Overview for Farming with AnkrPool
+I. Overview for Farming with AnkrPool
 
 **Operating systems:** Windows/Linux/MacOS；
 
@@ -23,7 +24,7 @@ e. Install Chia-Plot to access AnkrPool.
 
  
 
-# II. Install Chia Blockchain and create your private key
+II. Install Chia Blockchain and create your private key
 
 \1.   Visit Chia website (https://www.chia.net/) to install Chia Blockchain.      
 
@@ -41,7 +42,7 @@ Or you can also install it on github: https://github.com/Chia-Network/chia-block
 
 ![image](https://user-images.githubusercontent.com/86063945/125550995-da23cc7b-b658-4e07-afe0-006e140b047a.png)
 
-# III. Install Chia-signer and enter your created private key
+III. Install Chia-signer and enter your created private key
 
 \1.   Navigate to Download＆Help, then install Chia-Signer.
 
@@ -63,7 +64,7 @@ And put in your secret 24 words with space in between each word, then press “E
 
 *Only your signature is needed to connect your device to AnkrPool. Your private key and seed phrase will not be accessed at any time. Also, Chia-Signer can be run to generate your signature even when you are offline. 
 
-# IV. Add a plot
+IV. Add a plot
 
 Log in Chia wallet and navigate to “Plots” to add a plot. 
 
@@ -71,7 +72,7 @@ Log in Chia wallet and navigate to “Plots” to add a plot.
 ![image](https://user-images.githubusercontent.com/86063945/125551322-4349cd1d-b879-468f-89ae-a4bf290297b7.png)
 ![image](https://user-images.githubusercontent.com/86063945/125551341-3f66d252-80a1-4d2f-bba1-f024962ffd27.png)
 
-# V. Bind data
+V. Bind data
 
 \1. Go to the “Configure” page, paste your signature in the “Binding Date” field, then click “Apply”. 
 
@@ -81,7 +82,7 @@ Log in Chia wallet and navigate to “Plots” to add a plot.
 
  ![image](https://user-images.githubusercontent.com/86063945/125551380-9baa0b33-9ded-48b0-9857-9b80d7e81915.png)
 
-# VI. Install Chia-Miner to access the pool.
+VI. Install Chia-Miner to access the pool.
 
 \1. Navigate to Download＆Help, then install Chia-Miner.
 

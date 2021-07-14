@@ -1,11 +1,11 @@
 ---
 sort: 1
 ---
-# I. Overview for Mining with AnkrPool
+# I. Overview for Farming with AnkrPool
 
 **Operating systems:** Windows/Linux/MacOS；
 
-**Mining software:** AnkrMiner
+**Farming software:** AnkrPlot
 
  
 
@@ -19,7 +19,7 @@ c. Add a plot
 
 d. Bind data.
 
-e. Install Chia-miner to access AnkrPool.
+e. Install Chia-Plot to access AnkrPool.
 
  
 

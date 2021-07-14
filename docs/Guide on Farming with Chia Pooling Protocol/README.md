@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 1
 ---
 #  Guide on Farming with Chia Pooling Protocol
 Chia v1.2.0 is now officially released. You can visit https://github.com/Chia-Network/chia-blockchain/releases/tag/1.2.0 to find release notes and download it.
